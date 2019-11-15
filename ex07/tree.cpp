@@ -60,8 +60,12 @@ void deleteTree(node<T> * root) {
 	delete root;
 }
 
-int sum(node<T> * root) {
+int sum(node<int> * root) {
+	return 0;
+}
 
+int mult(node<T> * root, node<T> * tree2) {
+	return 0;
 }
 
 template <class T> 
