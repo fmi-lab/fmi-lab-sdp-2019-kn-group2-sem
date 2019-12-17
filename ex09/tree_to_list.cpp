@@ -62,8 +62,8 @@ node<int>* findLastElement(node<int> * l) {
 // 	return start;
 // }
 
-
-node<int>* treeToList(node<int> * root, node<int>*& start) {
+// TODO: upload solution with: , node<int>*& start
+node<int>* treeToList(node<int> * root) {
 	if (NULL == root) {
 		return NULL;
 	}
